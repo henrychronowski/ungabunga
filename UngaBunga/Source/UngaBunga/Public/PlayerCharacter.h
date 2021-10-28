@@ -26,7 +26,7 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float health;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float maxHealth;
