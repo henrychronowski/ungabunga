@@ -28,5 +28,7 @@ public:
 
 	UPROPERTY(BlueprintReadWrite)
 	bool canHit;
+	UPROPERTY(BlueprintReadWrite)
+	bool canGrab;
 
 };
