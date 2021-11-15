@@ -15,4 +15,4 @@ jobs:
     - uses: pixta-dev/repository-mirroring-action@v1
       with:
         ssh_private_key: ${{ secrets.MIRROR_PRIVATE_KEY }}
-        target_repo_url: ssh://git@pineapple.champlain.edu/fa21-capstone-2021-22-t05-ungabunga.git
+        target_repo_url: ssh://git@pineapple.champlain.edu/fa21-capstone-2021-22-t05.git
