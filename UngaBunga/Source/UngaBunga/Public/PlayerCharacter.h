@@ -30,4 +30,6 @@ public:
 	float health;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float maxHealth;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool canTakeDamaged;
 };
